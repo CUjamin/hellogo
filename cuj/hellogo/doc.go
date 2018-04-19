@@ -3,4 +3,4 @@
 /*
 hello document
 */
-package main
+package hellogo
