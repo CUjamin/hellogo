@@ -2,12 +2,26 @@
 package main
 
 import (
-	"fmt"
+	//"fmt"
+	//"./mainpackage/point"
+	//"./mainpackage/lockdemo"
+	//"./mainpackage/srcdemo/osdemo"
+	"github.com/CUjamin/hellogo/cuj/hellogo/main/mainpackage/srcdemo/bufiodemo"
 )
 
 func main() {
-	fmt.Println("Hello World!")
-	for i:=1;i<10;i++{
-		fmt.Println(i);
-	}
+	bufiodemo.Inputdemo()
+	//osdemo.Test()
+	//lockdemo.Start()
+	//var p point.Point = point.Point{2,2}
+	//var q point.Point = point.Point{1,1}
+	//
+	//fmt.Println(point.Discount(p,q))
+
+	//var s collection.Stack
+	//s.Push("test")
+	//fmt.Println(s.Pop())
+	//fmt.Println(s.Size())
 }
+
+
