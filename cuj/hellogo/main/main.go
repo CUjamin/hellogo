@@ -11,6 +11,7 @@ import (
 
 func main() {
 	bufiodemo.Inputdemo()
+	
 	//osdemo.Test()
 	//lockdemo.Start()
 	//var p point.Point = point.Point{2,2}
