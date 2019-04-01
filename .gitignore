@@ -1,7 +1,10 @@
 .git/
 
 .idea/
+.vscode/
 
 
 *.iml
 *.txt
+
+*.exe
