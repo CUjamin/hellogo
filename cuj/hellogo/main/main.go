@@ -21,7 +21,7 @@ func main() {
 	lockdemo.Start()
 	var p point.Point = point.Point{2,2}
 	var q point.Point = point.Point{1,1}
-	
+
 	fmt.Println(point.Discount(p,q))
 
 	var s collection.Stack
